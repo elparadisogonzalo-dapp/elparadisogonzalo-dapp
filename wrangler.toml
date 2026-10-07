@@ -6,7 +6,7 @@
 name = "elparadisogonzalo"
 
 compatibility_date = "2026-09-21"
-compatibility_flags = ["nodejs_compat", "l2s"]
+compatibility_flags = ["elparadisogonzalo-dapp", "l2s"]
 [previews]
 # Do not create a workers.dev URL for production.
 workers_dev = false
@@ -21,7 +21,7 @@ workers_dev = false
 #
 # Enviroment:
 #   ./dist/index.html
-#   ./dist/...
+#   ./src
 #
 [assets]
 directory = "./dist"
@@ -53,6 +53,3 @@ head_sampling_rate = 1
 # =============================================================================
 # DEPLOYMENT / SOURCE MAPS
 # =============================================================================
-
-
-# Keep this Wrangler file as the source of truth for variables/configuration.
