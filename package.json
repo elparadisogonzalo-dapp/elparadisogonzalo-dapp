@@ -1,19 +1,26 @@
 {
-  "name": "elparadisogonzalo",
-  "version": "1.0.0",
-  "public": true,
-  "description": "El Paradiso Gonzalo website and dashboard",
-  "homepage": "https://elparadisogonzalo.net",
-  "license": "Apache-2.0",
-  "type": "module",
-  "scripts": {
-    "build": "mkdir -p dist && rollup -c && cp index.html dist/ && cp -r assets dist/",
-    "deploy": "pnpm build && pnpm exec wrangler deploy"
-  },
-  "devDependencies": {
-    "crx3": "^2.0.0",
-    "rollup": "^4.63.4",
-    "typescript": "^7.0.2",
-    "wrangler": "^4.136.3"
-  }
+    "name": "elparadisogonzalo",
+    "version": "1.0.0",
+    "public": true,
+    "description": "El Paradiso Gonzalo website and dashboard",
+    "homepage": "https://elparadisogonzalo.net",
+    "license": "GPL-3.0",
+    "type": "module",
+    "scripts": {
+        "build": "mkdir -p dist && rollup -c && cp index.html dist/ && cp -r assets dist/",
+        "deploy": "pnpm build && pnpm exec wrangler deploy"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "^5.90.0",
+        "@vitejs/plugin-react": "^5.0.0",
+        "lucide-react": "^0.468.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "viem": "^2.37.0",
+        "wagmi": "^2.16.0",
+        "crx3": "^2.0.0",
+        "rollup": "^4.63.4",
+        "typescript": "^7.0.2",
+        "wrangler": "^4.136.3"
+    }
 }

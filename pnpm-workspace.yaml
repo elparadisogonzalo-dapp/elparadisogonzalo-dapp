@@ -1,0 +1,11 @@
+allowBuilds:
+  bufferutil: set this to true or false
+  bufferutil@4.1.0: true
+  esbuild: set this to true or false
+  esbuild@0.28.1: true
+  keccak: set this to true or false
+  keccak@3.0.4,: true
+  utf-8-validate: set this to true or false
+  utf-8-validate@5.0.10: true
+  workerd: set this to true or false
+  workerd@1.20261006.1: true
