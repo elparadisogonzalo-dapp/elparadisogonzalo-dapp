@@ -33,10 +33,12 @@ directory = "./dist"
 [[routes]]
 pattern = "elparadisogonzalo.net"
 custom_domain = true
+previews_enabled = true                                                                          
 
 [[routes]]
 pattern = "www.drive.elparadisogonzalo.net"
 custom_domain = true
+previews_enabled = true                                                                          
 
 # =============================================================================
 # OBSERVABILITY
